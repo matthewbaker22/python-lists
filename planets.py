@@ -16,5 +16,9 @@ planet_list.append("Pluto")
 
 spacecraft = [
     ("Cassini", "Saturn"),
-    ("Viking", "Mars")
+    ("Viking", "Mars"),
+    ("Ethos", "Venus")
 ]
+
+for craft in spacecraft:
+    print(craft[0], "has visited", craft[1])
